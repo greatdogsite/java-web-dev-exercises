@@ -22,7 +22,7 @@ public class ArrayListGradebook {
                 students.add(newStudent);
             }
 
-        } while(!newStudent.equals(""));
+        } while (!newStudent.equals(""));
 
         // Get student grades
         for (String student : students) {
@@ -42,5 +42,6 @@ public class ArrayListGradebook {
 
         double avg = sum / students.size();
         System.out.println("Average grade: " + avg);
+
     }
 }
