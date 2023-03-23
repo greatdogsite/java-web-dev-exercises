@@ -14,7 +14,11 @@ public class HashMapPractice {
         while (true) {
             System.out.println("Enter a Name");
             name = input.nextLine();
-//            System.out.println(id.getClass());
+//            String test = input.nextLine();
+//            System.out.println(test);
+//            Integer test1 = Integer.parseInt(test);
+//            System.out.println(test1);
+//            System.out.println(test1.getClass());
             if (!name.equals("")) {
                 System.out.println("Enter an ID");
                 id = input.nextInt();
