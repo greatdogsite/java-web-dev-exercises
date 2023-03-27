@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class SchoolPractice {
     public static void main(String[] args) {
+
         Student me = new Student();
         me.setName("Paul");
         me.setStudentId(112);
