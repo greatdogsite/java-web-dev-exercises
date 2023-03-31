@@ -39,7 +39,7 @@ public class CarTest {
 
     @Test
     public void testInitialGasTankNotZeroTrue() {
-        assertTrue(testCar.getGasTankLevel() != 0);
+        assertTrue(testCar.getGasTankLevel() == 10);
     }
 
     //TODO: gasTankLevel is accurate after driving within tank range
