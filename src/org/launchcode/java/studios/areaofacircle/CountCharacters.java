@@ -20,9 +20,10 @@ public class CountCharacters {
         char[] stringToCharArray = sampleString.toCharArray();
         HashMap<Character, Integer> characterMap = new HashMap<>();
         for (Character c : stringToCharArray) {
-//            if (Pattern.matches("[a-zA-Z]", c)) { //ran out of time
-//                System.out.println("true");
-//            }
+            String j = c.toString();
+            if (!Pattern.matches("[a-zA-Z]", j)) { //ran out of time
+                continue;
+            }
             c = c.toLowerCase(c);
             if (characterMap.containsKey(c)) {
                 Integer count = characterMap.get(c) + 1;
