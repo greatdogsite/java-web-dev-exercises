@@ -36,7 +36,7 @@ public class MenuItem{
 
     @Override
     public String toString(){
-        return this.name + " - " + "$" +this.price + " Each - " + this.description  + " - " + this.category + " - " + this.newOld + " Added to the menu on " + this.date;
+        return this.name + " - " + "$" + this.price + " Each - " + this.description  + " - " + this.category + " - " + this.newOld + " Added to the menu on " + this.date;
     }
 }
 
